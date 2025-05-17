@@ -128,6 +128,10 @@ border: none;
     background: #f9f9f9;
     padding: 50px;
 }
+.cloud{
+    background: #f9f9f9;
+    padding: 50px;
+}
 .main-text h1{
     text-align: center;
     text-shadow: 0px 1px 1px black;
@@ -143,7 +147,19 @@ border: none;
 .book .row{
     margin-top: 30px;
 }
+.cloud .row{
+    margin-top: 30px;
+}
 .book form input{
+    padding: 12.6px;
+    color: black;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px -6px black;
+}
+.cloud form input{
     padding: 12.6px;
     color: black;
     border: none;
@@ -159,7 +175,7 @@ border: none;
     box-shadow: 0px 5px 5px -6px black;
     height: 115px;
 }
-.book .submit{
+.cloud .submit{
     width: 160px;
     font-size: 16px;
     font-weight: 550;
@@ -167,8 +183,9 @@ border: none;
     color: white;
     margin-top: 30px;
     transition: 0.5s;
+    text-align: center;
 }
-.book .submit:hover{
+.cloud .submit:hover{
     width: 170px;
 }
 @media (max-width:765px){
